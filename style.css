@@ -4,6 +4,7 @@ body {
   margin:0;
   padding:0;
   height:100%;
+  background-color: rgb(242, 217, 79, 0.9);
 }
 header{
   background-color: red;
@@ -11,9 +12,10 @@ header{
   padding: 8px;
   border: 1px solid gold;
   box-shadow: 0 8px 6px rgba(0, 0, 0, 0.2);
+  width:100%;
 }
 nav{
-  background-color:gold;
+  background-color:green;
   display: flex;
   justify-content: center;
   text-decoration: none;
@@ -54,12 +56,12 @@ section {
 }
 
 #about {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255, 0.8);
   padding: 60px 20px;
-  max-width: 800px;
+  max-width: auto;
   margin: 0 auto;
-  padding: 80px 20px;
-  text-align: center;
+  padding: 20px 20px;
+  text-align: left;
 }
 #about h2 {
   color: #222;
@@ -69,7 +71,7 @@ section {
 }
 
 .contact-section {
-  background-color: #f5f5f5;
+   background-color: rgb(255, 255, 255, 0.8) ;
   padding: 60px 20px;
   text-align:center;
 }
@@ -86,7 +88,7 @@ section {
   margin-right: auto;
 }
 .contact-form {
-  background-color: white;
+  background-color: rgb(255, 255, 255, 0.8);
   max-width: 500px;
   margin: 0 auto;
   padding: 30px;
@@ -107,14 +109,15 @@ section {
   color: #e74c3c;
 }
 .form-group input{
-  width:100%
+  width:100%;
   padding:12px;
-  border: 2px solid #ddd;
+  border : 2px solid #ddd;
   border-radius:6px;
-  font-size: irem;
+  font-size : 1rem;
   font-family: inherit;
   transition: border-color 0.3s;
 }
+
 .form-group textarea{
   width:100%;
   padding:12px;
