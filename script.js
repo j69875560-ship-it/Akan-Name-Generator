@@ -14,4 +14,10 @@ document
       alert("Please enter valid data!");
       return;
     }
+
+    // 3. SPLIT YEAR
+    let CC = parseInt(year.toString().slice(0, 2)); // first 2 digits
+    let YY = parseInt(year.toString().slice(2)); // last 2 digits
   }
+    // 4. FORMULA
+
