@@ -18,6 +18,13 @@ document
     // 3. SPLIT YEAR
     let CC = parseInt(year.toString().slice(0, 2)); // first 2 digits
     let YY = parseInt(year.toString().slice(2)); // last 2 digits
-  }
-    // 4. FORMULA
 
+    // 4. FORMULA
+    let d =
+      (CC / 4 - (2 * CC - 1) + (5 * YY) / 4 + (26 * (month + 1)) / 10 + day) %
+      7;
+
+    d = Math.floor(d); // remove decimals
+
+    // 5. ARRAYS
+  }
