@@ -20,5 +20,8 @@ https://j69875560-ship-it.github.io/Akan-Name-Generator/
 - CSS
 - JavaScript
 - Markdown
-## License
-MIT License
+
+## Contact information
+Send me an email at: johncarlos.mwenda@student.moringaschool.com
+## License and copyright
+&copy; 2026 Johncarlos Mwenda. All rights reserved

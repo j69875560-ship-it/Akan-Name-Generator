@@ -1,15 +1,15 @@
 document.getElementById("akanForm").addEventListener("submit", function(event) {
-  event.preventDefault(); // stop page refresh
+  event.preventDefault(); // To spot the page from refreshing once details have been input.
 
-  // 1. GET INPUT VALUES
+  // 1. Gets the values from the form
   let day = parseInt(document.getElementById("day").value);
   let month = parseInt(document.getElementById("month").value);
   let year = parseInt(document.getElementById("year").value);
   let gender = document.getElementById("gender").value;
 
-  // 2. VALIDATION
+  // 2. Set condition to ensure correct values are input and give an alert when incorrect values are input.
   if (day < 1 || day > 31 || month < 1 || month > 12 || gender === "") {
-    alert("Please enter valid data!");
+    alert("The values you have entered are incorrect. Please enter valid data!");
     return;
   }
 
