@@ -78,7 +78,7 @@ th {
   display: flex;
   gap: 40px;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 .form-container {
