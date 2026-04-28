@@ -80,26 +80,75 @@
     <section id="akan-name">
       <h2>Akan-Name-Generator</h2>
       <p>Fill in the form to generate your Akan name.</p>
-      <div class="form-container">
-        <form id="akanForm">
-        <label>Day:</label>
-        <input type="number" id="day" required />
+      <div class="akan-wrapper">
+        <div class="form-container">
+          <form id="akanForm">
+            <label>Day:</label>
+            <input type="number" id="day" required />
 
-        <label>Month:</label>
-        <input type="number" id="month" required />
+            <label>Month:</label>
+            <input type="number" id="month" required />
 
-        <label>Year:</label>
-        <input type="number" id="year" required />
+            <label>Year:</label>
+            <input type="number" id="year" required />
 
-        <label>Gender:</label>
-        <select id="gender" required>
-          <option value="">Select</option>
-          <option value="male">Male</option>
-          <option value="female">Female</option>
-        </select>
-        <button type="submit">Get Akan Name</button>
-      </form>
-      <h2 id="result"></h2>
+            <label>Gender:</label>
+            <select id="gender" required>
+              <option value="">Select</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+            <button type="submit">Get Akan Name</button>
+          </form>
+          <h2 id="result"></h2>
+        </div>
+        <table id="table2">
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Male Name</th>
+              <th>Female Name</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Sunday</td>
+              <td>Kwasi</td>
+              <td>Akosua</td>
+            </tr>
+            <tr>
+              <td>Monday</td>
+              <td>Kwadwo</td>
+              <td>Adwoa</td>
+            </tr>
+            <tr>
+              <td>Tuesday</td>
+              <td>Kwabena</td>
+              <td>Abenaa</td>
+            </tr>
+            <tr>
+              <td>Wednesday</td>
+              <td>Kwaku</td>
+              <td>Akua</td>
+            </tr>
+            <tr>
+              <td>Thursday</td>
+              <td>Yaw</td>
+              <td>Yaa</td>
+            </tr>
+            <tr>
+              <td>Friday</td>
+              <td>Kofi</td>
+              <td>Afua</td>
+            </tr>
+            <tr>
+              <td>Sarturday</td>
+              <td>Kwame</td>
+              <td>Ama</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </section>
     <!-- This is the about section -->
@@ -121,10 +170,6 @@
     <section id="contact">
       <div class="container">
         <h2>Contact Me</h2>
-        <!-- <p class="contact-intro">
-          If you have any questions or simply want to contact me and ask any
-          questions filling in the form below and send your message.
-        </p> -->
         <form
           action="https://formspree.io/f/xkokpgwb"
           method="post"
