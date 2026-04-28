@@ -46,4 +46,13 @@ document
       "Kofi",
       "Kwame",
     ];
+    let femaleNames = [
+      "Akosua",
+      "Adwoa",
+      "Abenaa",
+      "Akua",
+      "Yaa",
+      "Afua",
+      "Ama",
+    ];
   }
