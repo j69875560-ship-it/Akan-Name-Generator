@@ -27,4 +27,14 @@ document
     d = Math.floor(d); // remove decimals
 
     // 5. ARRAYS
+    let days = [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+    ];
+
   }
