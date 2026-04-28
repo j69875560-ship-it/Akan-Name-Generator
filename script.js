@@ -37,4 +37,13 @@ document
       "Saturday",
     ];
 
+    let maleNames = [
+      "Kwasi",
+      "Kwadwo",
+      "Kwabena",
+      "Kwaku",
+      "Yaw",
+      "Kofi",
+      "Kwame",
+    ];
   }
