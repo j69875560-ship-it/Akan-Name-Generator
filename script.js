@@ -55,4 +55,14 @@ document
       "Afua",
       "Ama",
     ];
+
+    // 6. GET NAME
+    let akanName;
+
+    if (gender === "male") {
+      akanName = maleNames[d];
+    } else {
+      akanName = femaleNames[d];
+    }
+
   }
