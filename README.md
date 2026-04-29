@@ -29,11 +29,10 @@ If the user doesnot select gender -> an error message is shown on the field prom
 https://j69875560-ship-it.github.io/Akan-Name-Generator/
 
 ## Technologies Used
-
-- HTML
-- CSS
-- JavaScript
-- Markdown
+1. HTML – for structuring the webpage
+2. CSS – for styling and layout
+3. JavaScript – for logic and functionality
+4. Markdown – for documentation
 
 ## Contact information
 

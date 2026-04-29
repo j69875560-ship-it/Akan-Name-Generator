@@ -3,6 +3,7 @@ document.getElementById("akanForm").addEventListener("submit", function(event) {
 
   // 1. Gets the values from the form
   let day = parseInt(document.getElementById("day").value);
+  // Remove the parseInt and allow a user to select options
   let month = parseInt(document.getElementById("month").value);
   let year = parseInt(document.getElementById("year").value);
   let gender = document.getElementById("gender").value;
@@ -39,5 +40,5 @@ document.getElementById("akanForm").addEventListener("submit", function(event) {
 
   // 7. DISPLAY RESULT
   document.getElementById("result").textContent =
-    "You were born on " + days[d] + ". Your Akan name is " + akanName;
+    "You were born on " + days[d] + ".so your Akan name is " + akanName;
 });
